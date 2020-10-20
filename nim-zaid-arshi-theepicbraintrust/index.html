@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nim</title>
+    <script src="js/els.js" defer></script>
+    <script src="js/classes/coin.js" defer></script>
+    <script src="js/classes/pile.js" defer></script>
+    <script src="js/classes/player.js" defer></script>
+    <script src="js/classes/game.js" defer></script>
+    <script src="js/v.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="d-flex justify-content-center">
+      <h1 class="h1" id="whose-turn"></h1>
+    </header>
+    <section class="d-flex justify-content-center" id="coins"></section>
+    <section class="container">
+      <p>Choose a number of coins:</p>
+      <div id="controls" class="btn-group">
+        <button class="btn btn-dark coin-choice" data-choice="1">1</button>
+        <button class="btn btn-dark coin-choice" data-choice="2">2</button>
+      </div>
+    </section>
+    <section>
+      <ul id="history" class="list-group"></ul>
+    </section>
+  </body>
+</html>
